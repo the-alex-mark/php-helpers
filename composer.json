@@ -1,6 +1,6 @@
 {
     "name": "the_alex_mark/php-helpers",
-    "version": "1.2",
+    "version": "1.3",
     "description": "Содержит скрипты с вспомогательными методами «PHP»",
     "type": "library",
     "license": "MIT",
@@ -23,10 +23,12 @@
             "src/memory.php",
             "src/network.php",
             "src/phone.php",
+            "src/string.php",
             "src/xml.php"
         ]
     },
     "require": {
-        "ext-dom": "*"
+        "ext-dom": "*",
+        "ext-mbstring": "*"
     }
 }
