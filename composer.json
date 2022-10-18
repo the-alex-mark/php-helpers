@@ -1,0 +1,30 @@
+{
+    "name": "the_alex_mark/php-helpers",
+    "version": "1.0",
+    "description": "Содержит скрипты с вспомогательными методами «PHP»",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Макаров Александр Михайлович",
+            "email": "the_alex_mark@mail.ru",
+            "homepage": "https://the-alex-mark.ru"
+        }
+    ],
+    "keywords": [ "php", "helpers" ],
+    "autoload": {
+        "files": [
+            "src/dotenv/parse.php",
+            "src/payment/amount.php",
+            "src/payment/order.php",
+            "src/email.php",
+            "src/memory.php",
+            "src/network.php",
+            "src/phone.php",
+            "src/xml.php"
+        ]
+    },
+    "require": {
+        "ext-dom": "*"
+    }
+}
