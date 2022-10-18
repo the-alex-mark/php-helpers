@@ -9,9 +9,12 @@ if (!function_exists('env_separator')) {
      *
      * @param  string $key
      * @param  string $pattern
-     * @return array
+     * @return array|false
      */
     function env_separator($key, $pattern = '/,(\s+)?/') {
-        return array_map('trim', preg_split($pattern, env($key, '')));
+        if (function_exists('env'))
+            return array_map('trim', preg_split($pattern, env($key, '')));
+
+        return false;
     }
 }
