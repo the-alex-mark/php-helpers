@@ -1,6 +1,6 @@
 {
     "name": "the_alex_mark/php-helpers",
-    "version": "1.3",
+    "version": "1.5",
     "description": "Содержит скрипты с вспомогательными методами «PHP»",
     "type": "library",
     "license": "MIT",
@@ -17,13 +17,11 @@
             "src/dotenv/parse.php",
             "src/payment/amount.php",
             "src/payment/order.php",
-            "src/array.php",
-            "src/boolean.php",
+            "src/arguments.php",
             "src/email.php",
             "src/memory.php",
             "src/network.php",
             "src/phone.php",
-            "src/string.php",
             "src/xml.php"
         ]
     },
