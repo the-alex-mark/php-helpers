@@ -1,6 +1,6 @@
 {
     "name": "the_alex_mark/php-helpers",
-    "version": "1.6",
+    "version": "1.7",
     "description": "Содержит скрипты с вспомогательными методами «PHP»",
     "type": "library",
     "license": "MIT",
@@ -15,8 +15,8 @@
     "autoload": {
         "files": [
             "src/dotenv/parse.php",
-            "src/payment/amount.php",
-            "src/payment/order.php",
+            "src/payments/amount.php",
+            "src/payments/order.php",
             "src/arguments/array.php",
             "src/arguments/boolean.php",
             "src/arguments/mb.php",
